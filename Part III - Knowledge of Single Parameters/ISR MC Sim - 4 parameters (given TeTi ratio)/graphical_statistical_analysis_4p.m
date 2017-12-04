@@ -53,7 +53,7 @@ for k=1:length(FluctuationList)
     FluctuationPercentage=FluctuationList(k);
 
     %% Load File
-    filename=sprintf('%ip_%.1ernd_%irep_%iparam_1segm0.10over.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
+    filename=sprintf('%ip_%.1ernd_%irep_%iparam.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
     filename
     if exist(filename, 'file') == 2
         load(filename);
@@ -316,7 +316,7 @@ for k=1:length(FluctuationList)
 
     %% Load File
     Number_PlasmaParameters = length(PlasmaParameters);
-    filename=sprintf('%ip_%.1ernd_%irep_%iparam_1segm0.10over.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
+    filename=sprintf('%ip_%.1ernd_%irep_%iparam.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
     filename
     if exist(filename, 'file') == 2
         load(filename);
@@ -618,7 +618,7 @@ for k=1:length(FluctuationList)
 
     %% Load File
     Number_PlasmaParameters = length(PlasmaParameters);
-    filename=sprintf('%ip_%.1ernd_%irep_%iparam_1segm0.10over.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
+    filename=sprintf('%ip_%.1ernd_%irep_%iparam.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
     filename
     if exist(filename, 'file') == 2
         load(filename);
@@ -826,7 +826,7 @@ for k=1:length(newFluctuationList)
 
     %% Load File
     Number_PlasmaParameters = length(PlasmaParameters);
-    filename=sprintf('%ip_%.1ernd_%irep_%iparam_1segm0.10over.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
+    filename=sprintf('%ip_%.1ernd_%irep_%iparam.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
     filename
     if exist(filename, 'file') == 2
         load(filename);
@@ -998,7 +998,7 @@ for k=1:length(newFluctuationList)
 
     %% Load File
     Number_PlasmaParameters = length(PlasmaParameters);
-    filename=sprintf('%ip_%.1ernd_%irep_%iparam_1segm0.10over.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
+    filename=sprintf('%ip_%.1ernd_%irep_%iparam.mat',Number_PlasmaParameters,FluctuationPercentage,Number_Random_Realizations,Number_InputParameters_Expected);
     filename
     if exist(filename, 'file') == 2
         load(filename);
